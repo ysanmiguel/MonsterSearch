@@ -12,7 +12,7 @@ https://modxmonster.com/donate
 Overview
 --------------------
 MonsterSearch enhances the MODX Manager search with customizable wildcard prefixes,
-user/resource ID filters, and exact quotes ('...') or ("...").
+to see in the search results exactly what you need.
 
 --------------------
 Compatibility
@@ -38,6 +38,6 @@ Installation
 3. Adjust monstersearch.wildcards or monstersearch.debug if needed.
 4. Clear cache and reload the Manager.
 
-For examples and more details, visit: https://modxmonster.com/monster-search.html
+For examples and details, visit: https://modxmonster.com/monster-search.html
 
 If you find any issues, please report them in the Issues section: https://github.com/ysanmiguel/MonsterSearch/issues

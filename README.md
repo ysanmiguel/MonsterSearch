@@ -12,7 +12,7 @@ https://modxmonster.com/donate
 Overview
 --------------------
 MonsterSearch enhances the MODX Manager search with customizable wildcard prefixes,
-fuzzy matching, user/resource ID filters, and exact quotes ('...') or ("...").
+user/resource ID filters, and exact quotes ('...') or ("...").
 
 --------------------
 Compatibility
@@ -28,7 +28,6 @@ Features
 - Type exclusion with -<prefix> (e.g. footer -* -@)
 - Exact search with quotes: '23' (ID 23), "footer chunk" (exact name)
 - ~ID exact filter (e.g. @~25)
-- Fuzzy matching (configurable threshold)
 - Users (^) and Resources (#) support
 
 --------------------
@@ -36,7 +35,7 @@ Installation
 --------------------
 1. Install the transport package via Package Manager.
 2. Go to System Settings → Namespace: monstersearch.
-3. Adjust monstersearch.wildcards, monstersearch.fuzzy_threshold, or monstersearch.debug if needed.
+3. Adjust monstersearch.wildcards or monstersearch.debug if needed.
 4. Clear cache and reload the Manager.
 
 --------------------
@@ -48,3 +47,5 @@ footer -*         → with "footer" excluding TVs
 @~25              → only Plugin with ID 25
 '23'              → only item with ID 23 (exact)
 $ "footer chunk"  → only Chunk named exactly "footer chunk"
+
+For more details, visit: https://modxmonster.com/monster-search.html

@@ -38,14 +38,6 @@ Installation
 3. Adjust monstersearch.wildcards or monstersearch.debug if needed.
 4. Clear cache and reload the Manager.
 
---------------------
-Usage examples
---------------------
-$ header          → only Chunks containing "header"
-$@ header         → Chunks or Plugins with "header"
-footer -*         → with "footer" excluding TVs
-@~25              → only Plugin with ID 25
-'23'              → only item with ID 23 (exact)
-$ "footer chunk"  → only Chunk named exactly "footer chunk"
+For examples and more details, visit: https://modxmonster.com/monster-search.html
 
-For more details, visit: https://modxmonster.com/monster-search.html
+If you find any issues, please report them in the Issues section: https://github.com/ysanmiguel/MonsterSearch/issues
